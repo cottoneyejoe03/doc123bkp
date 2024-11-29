@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Image and Title</title>
+    <style>
+        /* Basic reset and body styles */
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column; /* Column layout */
+            justify-content: center; /* Center vertically */
+            align-items: center; /* Center horizontally */
+            background-color: #282c34; /* Dark background */
+            color: white; /* Text color */
+            font-family: Arial, sans-serif; /* Font style */
+            overflow: scroll; /* Hide overflow */
+        }
+
+        /* Title styles */
+        h1 {
+            font-size: 3rem; /* Large title size */
+            text-align: center; /* Center text */
+            margin: 0; /* Remove default margin */
+            opacity: 0; /* Start invisible */
+            animation: fadeIn 1s forwards; /* Fade-in effect */
+            animation-delay: 0.5s; /* Delay before starting */
+        }
+        
+                a {
+            font-size: 3rem; /* Large title size */
+            text-align: center; /* Center text */
+            margin: 0; /* Remove default margin */
+            opacity: 0; /* Start invisible */
+            animation: fadeIn 1s forwards; /* Fade-in effect */
+            animation-delay: 0.5s; /* Delay before starting */
+        }
+
+        /* Image styles */
+        .image-container {
+            position: relative; /* Position for absolute elements */
+            overflow: hidden; /* Hide overflow from image */
+            width: 50vw; /* Responsive width */
+            height: auto; /* Automatic height */
+            max-height: 90vh; /* Maximum height */
+        }
+
+        img {
+            width: 100%; /* Full width */
+            height: auto; /* Maintain aspect ratio */
+            transition: transform 0.5s ease; /* Smooth transform */
+        }
+
+        /* Image hover effect */
+        .image-container:hover img {
+            transform: scale(1.05); /* Slight zoom on hover */
+        }
+
+        /* Keyframes for fade-in effect */
+        @keyframes fadeIn {
+            to {
+                opacity: 1; /* Fully visible */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Docs backup page page</h1>
+        
+    <div class="image-container">
+
+		<img src="00086_result.jpg" alt="" height: 90vh>
+	</div>	
+              <a href="docs1arch.7z.001">Docs 1 parts</a>
+              <a href="docs1arch.7z.002">Docs 1 parts</a>
+              <a href="docs1arch.7z.003">Docs 1 parts</a>
+              <a href="docs1arch.7z.004">Docs 1 parts</a>
+              <a href="docs1arch.7z.005">Docs 1 parts</a>
+              <a href="docs1arch.7z.006">Docs 1 parts</a>
+              <a href="docs1arch.7z.007">Docs 1 parts</a>
+              <a href="docs1arch.7z.008">Docs 1 parts</a>
+              <a href="docs1arch.7z.009">Docs 1 parts</a>
+                  <div class="image-container">
+
+		<img src="00086_result.jpg" alt="" height: 90vh>
+	</div>
+              <a href="docs2arch.7z.001">Docs 2 parts</a>
+              <a href="docs2arch.7z.002">Docs 2 parts</a>
+              <a href="docs2arch.7z.003">Docs 2 parts</a>
+                                <div class="image-container">
+
+		<img src="00086_result.jpg" alt="" height: 90vh>
+	</div>
+
+              <a href="songs3arch.7z.001">Docs 3 parts</a>
+              <a href="songs3arch.7z.002">Docs 3 parts</a>
+              <a href="songs3arch.7z.003">Docs 3 parts</a>
+              
+</body>
+</html>
